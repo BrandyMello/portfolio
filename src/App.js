@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+import { GoMarkGithub } from "react-icons/go";
+import { IoLogoLinkedin } from "react-icons/io";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+        <h1>Brandy Mello</h1>
+        <h2>Software Engineer</h2>
+        <a href="">
+          <GoMarkGithub />
+        </a>
+        <a href="">
+          <IoLogoLinkedin />
         </a>
       </header>
+      <main></main>
     </div>
   );
 }
