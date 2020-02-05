@@ -1,5 +1,6 @@
 body {
-  background: url(./images/annie-spratt-background.jpg) no-repeat center center fixed;
+  background-color: #faf6eb;
+  /* background: url(./images/annie-spratt-background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9,10 +10,24 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+code {}
+
+h1 {
+  color: teal;
+  font-family: 'Lemonada', cursive;
+  font-size: 3.4em;
+  margin-left: 10%;
+  margin-block-start: 0.2em;
+  margin-block-end: 0em;
+}
+
+h2 {
+  color: #EA5636;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8em;
+  margin-left: 12%;
+  margin-top: 0;
 }
