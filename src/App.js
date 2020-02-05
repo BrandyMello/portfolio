@@ -9,14 +9,16 @@ function App() {
       <header className="App-header">
         <h1>Brandy Mello</h1>
         <h2>Software Engineer</h2>
-        <a href="">
+        <a href="https://github.com/BrandyMello">
           <GoMarkGithub />
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/brandy-mello">
           <IoLogoLinkedin />
         </a>
       </header>
-      <main></main>
+      <main>
+        
+      </main>
     </div>
   );
 }
