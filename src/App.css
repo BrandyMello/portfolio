@@ -1,7 +1,7 @@
 .border {
   border: teal 40px solid;
   border-radius: 10px;
-  margin: 65px auto;
+  margin: 40px auto;
   width: 60%;
   height: 400px;
 }
@@ -25,6 +25,7 @@ footer {
 .btn_contact {
   background-color: #EA5636;
   border-radius: 6px;
+  border: none;
   color: white;
   height: 30px;
   font-size: 1em;
@@ -34,10 +35,11 @@ footer {
 .btn_contact,
 .link_gh,
 .link_li {
-  margin: 4px 0px;
+  margin: 6px 0px;
 }
 
 .link_gh,
 .link_li {
   color: teal;
+  margin: 5px;
 }
