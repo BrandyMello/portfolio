@@ -1,0 +1,43 @@
+.border {
+  border: teal 40px solid;
+  border-radius: 10px;
+  margin: 65px auto;
+  width: 60%;
+  height: 400px;
+}
+
+.projectDisplay {
+  background-color: white;
+  position: relative;
+  left: -3px;
+  bottom: 5px;
+  border-radius: 10px;
+  width: 100.85%;
+  height: 410px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn_contact {
+  background-color: #EA5636;
+  border-radius: 6px;
+  color: white;
+  height: 30px;
+  font-size: 1em;
+  width: 100px;
+}
+
+.btn_contact,
+.link_gh,
+.link_li {
+  margin: 4px 0px;
+}
+
+.link_gh,
+.link_li {
+  color: teal;
+}
