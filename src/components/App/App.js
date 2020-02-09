@@ -2,22 +2,18 @@ import React from 'react';
 import { GoMarkGithub } from "react-icons/go";
 import { IoLogoLinkedin } from "react-icons/io";
 import './App.css';
+import Nav from '../Nav/Nav';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Brandy Mello</h1>
-        <h2>Software Developer</h2>
+      <Nav />
+      <main>
         <div class="border">
           <div class="projectDisplay">
 
           </div>
         </div>
-        
-      </header>
-      <main>
-        
       </main>
       <footer>
         <button class="btn_contact">Contact</button>
