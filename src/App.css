@@ -1,0 +1,40 @@
+.border {
+  border: teal 40px solid;
+  border-radius: 10px;
+  margin: 40px auto;
+  width: 60%;
+  height: 400px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn_contact {
+  background-color: #EA5636;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  height: 30px;
+  font-size: 1em;
+  width: 100px;
+}
+
+.btn_contact,
+.link_gh,
+.link_li {
+  margin: 6px 0px;
+}
+
+.link_gh,
+.link_li {
+  color: teal;
+  margin: 5px;
+}
+
+/* .img_project {
+  background-image: url('../../images/tripediaPics.png');
+  z-index: 2;
+} */

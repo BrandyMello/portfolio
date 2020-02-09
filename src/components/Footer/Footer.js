@@ -4,12 +4,12 @@ import { IoLogoLinkedin } from "react-icons/io";
 
 const Footer = () => (
   <footer>
-    <button class="btn_contact">Contact</button>
-    <div class="links">
-      <a class="link_gh" href="https://github.com/BrandyMello">
+    <button className="btn_contact">Contact</button>
+    <div className="links">
+      <a className="link_gh" href="https://github.com/BrandyMello">
         <GoMarkGithub />
       </a>
-      <a class="link_li" href="https://www.linkedin.com/in/brandy-mello">
+      <a className="link_li" href="https://www.linkedin.com/in/brandy-mello">
         <IoLogoLinkedin />
       </a>
     </div>
